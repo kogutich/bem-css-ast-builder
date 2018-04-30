@@ -1,0 +1,12 @@
+.block1 {
+	color: red;
+	margin: var(--x);
+
+	&__element {
+		color: blue;
+
+		&_mod_mod-val {
+			color: green;
+		}
+	}
+}

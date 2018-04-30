@@ -1,0 +1,15 @@
+.a {
+	border: 1px solid #1fe;
+}
+
+.a {
+	cursor: default;
+}
+
+.a, .b {
+	white-space: normal;
+}
+
+.a .b .c {
+	position: relative;
+}
