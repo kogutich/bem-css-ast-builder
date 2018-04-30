@@ -1,0 +1,11 @@
+.block2 {
+	text-align: center;
+
+	&::after {
+		padding-bottom: calc(var(--y) * 2);
+	}
+
+	& + span {
+		display: block;
+	}
+}

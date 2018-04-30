@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Yandex Sans Text Web';
+	src:
+			url('text_face.assets/Yandex-Sans-Text-Regular.woff2') format('woff2'),
+			url('text_face.assets/Yandex-Sans-Text-Regular.woff') format('woff'),
+			url('text_face.assets/Yandex-Sans-Text-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.block1 {
+	color: red;
+	margin: var(--x);
+
+	&__element {
+		color: blue;
+
+		&_mod_mod-val {
+			color: green;
+		}
+	}
+}

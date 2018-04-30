@@ -1,0 +1,28 @@
+.block3 {
+	div {
+		div {
+			div {
+				.block3__elem {
+					position: fixed;
+					margin-top: calc(var(--y) + var(--z));
+				}
+			}
+		}
+	}
+
+	&_mod {
+		&_mod-val1 {
+			background: #fcd;
+		}
+
+		&_mod-val2 {
+			&:last-child {
+				background: #fff;
+			}
+		}
+	}
+
+	& ~ a {
+		width: 55px;
+	}
+}
